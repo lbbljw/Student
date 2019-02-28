@@ -51,14 +51,14 @@
 	<div>
 		<h1 align="center">学生管理系统</h1>
 		<table border="6" align="center" >
-			<tr>
-				<td>id</td>
-				<td>name</td>
-				<td>birthday</td>
-				<td>age</td>
-				<td>score</td>
-				<td>classid</td>
-				<td>address</td>
+			<tr align="center">
+				<td>学号</td>
+				<td>名字</td>
+				<td>出生年月</td>
+				<td>年龄</td>
+				<td>成绩</td>
+				<td>班级编号</td>
+				<td>家庭住址</td>
 			</tr>
 
 			<c:forEach items="${student}" var="student">
